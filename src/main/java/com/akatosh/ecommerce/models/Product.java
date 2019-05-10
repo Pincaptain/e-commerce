@@ -29,6 +29,8 @@ public class Product {
     @JoinColumn
     private Set<Accessory> accessories;
 
+    public Product() {}
+
     public Product(String name, float price) {
         this.name = name;
         this.price = price;

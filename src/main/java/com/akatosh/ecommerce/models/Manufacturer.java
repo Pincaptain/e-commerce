@@ -17,6 +17,8 @@ public class Manufacturer {
 
     private String name;
 
+    public Manufacturer() {}
+
     public Manufacturer(String name) {
         this.name = name;
     }

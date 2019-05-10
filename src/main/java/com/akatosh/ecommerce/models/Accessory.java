@@ -18,6 +18,8 @@ public class Accessory {
     @ManyToMany(mappedBy = "accessories", cascade = CascadeType.ALL)
     private Set<Product> products;
 
+    public Accessory() {}
+
     public Accessory(String name) {
         this.name = name;
     }
